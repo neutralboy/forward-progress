@@ -1,5 +1,8 @@
 @import "./index.scss";
 
+@import "~bulma/sass/elements/box.sass";
+@import "~bulma/sass/form/_all.sass";
+
 .mainTitle{
     margin-top: 1.4rem;
 }
