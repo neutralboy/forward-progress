@@ -63,6 +63,13 @@ systems. We do this by following these rules:</p>
 
     </div>
   </section>
+  <section className={styles.section}>
+    <div className={`${styles.container} ${styles['has-text-centered']} `}>
+        <a target="_blank" href="https://bulma.io">
+            <img alt="Made with bulma" src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_150/v1578327783/made-with-bulma--dark.png" /> 
+        </a>
+    </div>
+  </section>
   </>
 )
 
