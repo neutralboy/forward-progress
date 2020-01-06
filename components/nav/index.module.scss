@@ -1,0 +1,17 @@
+@import "../../pages/index.scss";
+
+@import "~bulma/sass/components/navbar.sass";
+
+.navbar-item{
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.tagline{
+    margin-top: 1.4rem;
+}
+.makeItPlayfair{
+    font-family: $family-secondary;
+}

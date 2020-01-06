@@ -2,87 +2,68 @@ import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
 
+import styles from './index.module.scss';
+
 const Home = () => (
-  <div>
-    <Head>
-      <title>Home</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+  <>
+  <Head>
+    <title>FORWARD PROGRESS | NO GARBAGE BENGALURU BY 2022</title>
+  </Head>
+  <Nav />
+  <div className={styles.seperator} />
+  <section className={`${styles.section} ${styles['has-background-primary']} ${styles.coverScreen} `}>
+    <div className={`  ${styles['has-text-centered']}`}>
+      <h1 className={` ${styles.fontSecondary} ${styles['is-size-1']} ${styles['has-text-white']} `}>Forward Progress.</h1>
+      <br/>
+      <h3 className={`${styles['has-text-white-ter']} ${styles['is-size-4']}`}>Bringing Actionable Change to Bengaluru</h3>
 
-    <Nav />
-
-    <div className="hero">
-      <h1 className="title">Welcome to Next.js!</h1>
-      <p className="description">
-        To get started, edit <code>pages/index.js</code> and save to reload.
-      </p>
-
-      <div className="row">
-        <a href="https://nextjs.org/docs" className="card">
-          <h3>Documentation &rarr;</h3>
-          <p>Learn more about Next.js in the documentation.</p>
-        </a>
-        <a href="https://nextjs.org/learn" className="card">
-          <h3>Next.js Learn &rarr;</h3>
-          <p>Learn about Next.js by following an interactive tutorial!</p>
-        </a>
-        <a
-          href="https://github.com/zeit/next.js/tree/master/examples"
-          className="card"
-        >
-          <h3>Examples &rarr;</h3>
-          <p>Find other example boilerplates on the Next.js GitHub.</p>
-        </a>
+      <div className={styles.bottomImage}>
+        <img alt="bangalore city line cartoonified. Image from redbus" src="https://res.cloudinary.com/poorna/image/upload/c_scale,h_407/v1578322400/city_scape_app_download.png" />
+      </div>
+    </div>
+  </section>
+  
+  <section className={`${styles.section} `}>
+    <div className={` ${styles.container} ${styles['is-fluid']} `}>
+    <h2 className={` ${styles['has-text-black']} ${styles['is-size-2']}`}>Core Values.</h2>
+    <div className={`${styles.columns} ${styles['has-text-centered']} `}>
+      <div className={` ${styles.column} ${styles['is-half-desktop']} ${styles['is-full-mobile']} `}>
+        <div>
+          <br/>
+          <div className={`${styles.content} ${styles['has-text-centered']} `}>
+            <p>
+            To inspire our employees that big drastic systematic change is possible. But
+            not by fighting the current system but rather creating a new system that
+            makes the old system obsolete. <span className={styles.fontSecondary}>Forward Progress</span> will inspire, mentor and
+            teach its employees to develop the skills needed to make real change by
+            building new systems.
+            </p>
+            <p>
+            By the end of this we will have the 4 leaders go and build similar
+systems. We do this by following these rules:</p>
+          </div>
+          <div className={` ${styles.content}`}>
+            <ol type="1">
+              <li><span className={styles.bold}>Deliver Wow</span>: Go the extra Mile with every experience</li>
+              <li><span className={styles.bold}>True North</span>: Live by a moral compass of fairness and integrity.
+              Never ask someone to do something you wouldn’t do yourself</li>
+              <li><span className={styles.bold}>Elevate the tribe</span>: Build a positive family environment through
+              kindness and loyalty</li>
+              <li><span className={styles.bold}>Sharpen the saw</span>: Improve yourself daily through education</li>
+              <li><span className={styles.bold}>Be grateful</span>: Remember where you came from and give back.</li>
+              <li><span className={styles.bold}>All in!</span>: Be committed and exude passion towards your goals</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div className={` ${styles.column} ${styles['is-half-desktop']} ${styles['is-full-mobile']} `}>
+          <img alt="BANGALORE" src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_500/v1578318662/vidhana.png" />
       </div>
     </div>
 
-    <style jsx>{`
-      .hero {
-        width: 100%;
-        color: #333;
-      }
-      .title {
-        margin: 0;
-        width: 100%;
-        padding-top: 80px;
-        line-height: 1.15;
-        font-size: 48px;
-      }
-      .title,
-      .description {
-        text-align: center;
-      }
-      .row {
-        max-width: 880px;
-        margin: 80px auto 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-      }
-      .card {
-        padding: 18px 18px 24px;
-        width: 220px;
-        text-align: left;
-        text-decoration: none;
-        color: #434343;
-        border: 1px solid #9b9b9b;
-      }
-      .card:hover {
-        border-color: #067df7;
-      }
-      .card h3 {
-        margin: 0;
-        color: #067df7;
-        font-size: 18px;
-      }
-      .card p {
-        margin: 0;
-        padding: 12px 0 0;
-        font-size: 13px;
-        color: #333;
-      }
-    `}</style>
-  </div>
+    </div>
+  </section>
+  </>
 )
 
 export default Home

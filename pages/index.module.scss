@@ -1,0 +1,30 @@
+@import "./index.scss";
+
+.mainTitle{
+    margin-top: 1.4rem;
+}
+
+.bgAttach{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-clip: padding-box;
+    background-size: 100%;
+}
+
+.fontSecondary{
+    font-family: $family-secondary;
+    color: black;
+}
+.bold{
+    font-weight: bold;
+}
+.coverScreen{
+    height: 100vh;
+}
+
+.bottomImage{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
