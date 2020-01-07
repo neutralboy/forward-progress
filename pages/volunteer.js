@@ -31,8 +31,9 @@ const Volunteer = () => (
                     <div className={styles.box}>
                         <h5 className={`${styles['is-size-5']} ${styles['has-text-black']} `}>Fill the form and we'll reach out to you.</h5>
                         <br/>
-                        <form netlify method="POST">
+                        <form name="volunteer" data-netlify="true" method="POST">
                             <div>
+                                <input type="hidden" name="form-name" value="volunteer" />
                                 <div className={styles.field}>
                                     <label className={styles.label}>
                                         Name
