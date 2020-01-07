@@ -16,6 +16,16 @@ const Header = ({ title }) =>(
         <link rel="icon" href="https://res.cloudinary.com/poorna/image/upload/c_scale,h_26,q_auto:eco/v1578420031/Screenshot_from_2020-01-07_23-29-44.ico" />
         <meta property="og:image" content="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_305/v1578420123/forward_progress_logo.png" />
         <meta property="og:image:type" content="image/png" />
+        <meta name="google-site-verification" content="Y6DkhNQIVwk95Arpwa8p7XU1g__m9OpJJrqDoJjMikU" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121255747-5"></script>
+        <script>
+        {`window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-121255747-5');`}
+        </script>
+
     </Head>
 )
 
