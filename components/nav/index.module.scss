@@ -1,8 +1,7 @@
 @import "../../pages/index.scss";
 
-$navbar-dropdown-background-color: $primary;
-$navbar-dropdown-item-hover-background-color: $primary;
-$navbar-divider-background-color: $primary;
+$navbar-background-color: $primary;
+$navbar-item-color: white;
 @import "~bulma/sass/components/navbar.sass";
 
 .navbar-item{

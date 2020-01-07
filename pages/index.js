@@ -1,14 +1,13 @@
 import React from 'react'
-import Head from 'next/head'
+
+import Header from '../components/header';
 import Nav from '../components/nav'
 
 import styles from './index.module.scss';
 
 const Home = () => (
   <>
-  <Head>
-    <title>FORWARD PROGRESS | NO GARBAGE BENGALURU BY 2022</title>
-  </Head>
+    <Header title="Forward Progress" />
   <Nav />
   <div className={styles.seperator} />
   <section className={`${styles.section} ${styles['has-background-primary']} ${styles.coverScreen} `}>
@@ -65,7 +64,7 @@ systems. We do this by following these rules:</p>
   </section>
   <section className={styles.section}>
     <div className={`${styles.container} ${styles['has-text-centered']} `}>
-        <a target="_blank" href="https://bulma.io">
+        <a rel="noreferrer" target="_blank" href="https://bulma.io">
             <img alt="Made with bulma" src="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_150/v1578327783/made-with-bulma--dark.png" /> 
         </a>
     </div>

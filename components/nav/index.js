@@ -12,10 +12,10 @@ const Nav = () => {
           <div className={styles['navbar-item']}>
             <p className={` ${styles['has-text-white']} ${styles.makeItPlayfair} ${styles['has-family-secondary']} ${styles['is-size-3']} `}>Forward Progress.</p>
           </div>
-          <a onClick={()=>setOpen(!open)} role="button" className={`${styles["navbar-burger"]} ${styles["burger"]} `} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+          <a onClick={()=>setOpen(!open)} role="button" className={`${styles["navbar-burger"]} ${styles["burger"]} `} aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
           </a>
       </div>
       <div className={`${styles['navbar-menu']} ${ open && styles['is-active'] } `}>

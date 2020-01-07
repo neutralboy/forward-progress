@@ -1,16 +1,14 @@
 import React from 'react';
-import Head from 'next/head'
 
 
+import Header from '../components/header';
 import Nav from './../components/nav'
 
 import styles from './index.module.scss';
 
 const Plan = () =>(
     <>
-    <Head>
-        <title>Plan | Forward Progress</title>
-    </Head>
+        <Header title="Plan" />
     <Nav />
     <div className={styles.seperator} />
     <section className={styles.section}>

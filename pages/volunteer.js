@@ -1,17 +1,14 @@
 import React from 'react';
-import Head from 'next/head'
-
 
 import Nav from './../components/nav'
+import Header from '../components/header';
 
 import styles from './index.module.scss';
 
 
 const Volunteer = () => (
     <>
-    <Head>
-        <title>Volunteer with Us | Forward Progress</title>
-    </Head>
+    <Header title="Volunteer" />
     <Nav />
     <div className={styles.seperator} />
     <section className={styles.section}>
@@ -34,7 +31,7 @@ const Volunteer = () => (
                     <div className={styles.box}>
                         <h5 className={`${styles['is-size-5']} ${styles['has-text-black']} `}>Fill the form and we'll reach out to you.</h5>
                         <br/>
-                        <form method="POST">
+                        <form netlify method="POST">
                             <div>
                                 <div className={styles.field}>
                                     <label className={styles.label}>
