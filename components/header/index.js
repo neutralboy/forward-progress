@@ -13,8 +13,8 @@ const Header = ({ title }) =>(
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta name="theme-color" content="#131313" />
-        <link rel="icon" href="https://res.cloudinary.com/poorna/image/upload/c_scale,h_26,q_auto:eco/v1578420031/Screenshot_from_2020-01-07_23-29-44.ico" />
-        <meta property="og:image" content="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto:eco,w_305/v1578420123/forward_progress_logo.png" />
+        <link rel="icon" href="https://res.cloudinary.com/poorna/image/upload/c_scale,q_auto,w_40/v1582170092/FP_flower.ico" />
+        <meta property="og:image" content="https://res.cloudinary.com/poorna/image/upload/q_auto/v1582169125/Forward%20Progress%20Logo.svg" />
         <meta property="og:image:type" content="image/png" />
         <meta name="google-site-verification" content="Y6DkhNQIVwk95Arpwa8p7XU1g__m9OpJJrqDoJjMikU" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121255747-5"></script>

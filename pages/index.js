@@ -12,7 +12,7 @@ const Home = () => (
   <div className={styles.seperator} />
   <section className={`${styles.section} ${styles['has-background-primary']} ${styles.coverScreen} `}>
     <div className={`  ${styles['has-text-centered']}`}>
-      <h1 className={` ${styles.fontSecondary} ${styles['is-size-1']} ${styles['has-text-white']} `}>Forward Progress.</h1>
+        <h1 className={` ${styles.fontSecondary} ${styles['is-size-1']} ${styles['has-text-white']} `}>Forward Progress.</h1> 
       <br/>
       <h3 className={`${styles['has-text-white-ter']} ${styles['is-size-4']}`}>Bringing Actionable Change to Bengaluru</h3>
 

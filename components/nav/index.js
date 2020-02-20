@@ -10,7 +10,7 @@ const Nav = () => {
     <nav className={` ${styles.navbar}  ${styles['is-primary']} ${styles['is-fixed-top']} `} role="navigation" aria-label="main navigation">
       <div className={styles['navbar-brand']}>
           <div className={styles['navbar-item']}>
-            <p className={` ${styles['has-text-white']} ${styles.makeItPlayfair} ${styles['has-family-secondary']} ${styles['is-size-3']} `}>Forward Progress.</p>
+            <img  className={styles.mainLogo} src="https://res.cloudinary.com/poorna/image/upload/q_auto/v1582169125/Forward%20Progress%20Logo.svg" alt="main logo" />
           </div>
           <a onClick={()=>setOpen(!open)} role="button" className={`${styles["navbar-burger"]} ${styles["burger"]} `} aria-label="menu" aria-expanded="false">
             <span aria-hidden="true" />
